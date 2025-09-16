@@ -39,7 +39,7 @@ a {
     padding: 16px;
 }
 
-.content-wrapper {
+.first-row {
     display: flex;
 }
 
@@ -92,4 +92,36 @@ a {
     max-width: 90px;
     text-align: center;
     border-radius: 10px;
+}
+
+.second-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-cards-title {
+    /* align-self: center; */
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 24px;
+}
+
+.img-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.img-item img {
+    width: 150px;
+    border: 2px solid cornflowerblue;
+    border-radius: 10%;
+}
+
+.img-item {
+    max-width: 150px;
+    margin: 1em;
+    text-align: center;
 }
