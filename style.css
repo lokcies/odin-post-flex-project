@@ -19,12 +19,15 @@ a {
 .header-wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 
     background-color: #1F2937;
+    padding: 16px
 }
 
 .logo {
-    padding: 16px;
+    /* padding: 16px; */
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
@@ -33,11 +36,13 @@ a {
 .nav-right-item {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
+/* 
 .nav-item {
     padding: 16px;
-}
+}  */
 
 .first-row {
     display: flex;
@@ -49,7 +54,7 @@ a {
     display: flex;
     flex-grow: 1;
     flex-wrap: wrap;
-    padding: 6em;
+    padding: 3em;
 }
 
 .awesome-card {
