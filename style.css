@@ -152,4 +152,22 @@ a {
     background-color: #3882f6;
     margin: 3em;
     padding: 4em;
+    display: flex;
 }
+
+.fourth-row p {
+    color: #E5E7EB;
+}
+
+.alert-title {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.alert-btn {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 8px 20px;
+}
+
+
