@@ -116,7 +116,7 @@ a {
 
 .img-item img {
     width: 150px;
-    border: 2px solid cornflowerblue;
+    /* border: 2px solid cornflowerblue; */
     border-radius: 10%;
 }
 
