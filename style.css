@@ -23,7 +23,7 @@ a {
     flex-wrap: wrap;
 
     background-color: #1F2937;
-    padding: 16px
+    padding: 16px;
 }
 
 .logo {
@@ -44,14 +44,18 @@ a {
     padding: 16px;
 }  */
 
+/*  
 .first-row {
     display: flex;
-}
+    justify-content: space-between;
+} */
 
-.sub-header {
+.first-row {
     background-color: #1F2937;
     color: white;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-grow: 1;
     flex-wrap: wrap;
     padding: 3em;
