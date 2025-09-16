@@ -125,3 +125,25 @@ a {
     margin: 1em;
     text-align: center;
 }
+
+.third-row {
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding: 6em 12em; 
+    gap: 1em;
+    flex-wrap: wrap;
+    align-content: center;
+}
+ 
+.quote-text {
+    font-size: 36px;
+    color: #1f2937c2;
+}
+
+.quote-owner {
+    font-weight: bolder;
+    align-self: flex-end;
+} 
