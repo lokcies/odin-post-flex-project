@@ -147,3 +147,9 @@ a {
     font-weight: bolder;
     align-self: flex-end;
 } 
+
+.fourth-row {
+    background-color: #3882f6;
+    margin: 3em;
+    padding: 4em;
+}
