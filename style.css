@@ -11,7 +11,7 @@ li {
     margin: 0;
 }
 
-.nav-item a {
+a {
     text-decoration: none;
     color: #E5E7EB;
 }
@@ -32,9 +32,64 @@ li {
 
 .nav-right-item {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .nav-item {
     padding: 16px;
 }
 
+.content-wrapper {
+    display: flex;
+}
+
+.sub-header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    padding: 6em;
+}
+
+.awesome-card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 550px;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+
+.awesome-header {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.awesome-desc {
+    margin: 1em 0;
+}
+
+.img-placeholder {
+    /* background-color: grey; */
+    flex-basis: auto;
+    flex-shrink: 1;
+}
+
+.img-placeholder img {
+    width: 600px;
+    /* Changing to block display the remove any gap, try un-commenting background-color
+    in .img-placeholder */
+    display: block; 
+}
+
+.btn {
+    padding: 8px;
+    background-color: #3882f6;
+    max-width: 90px;
+    text-align: center;
+    border-radius: 10px;
+}
